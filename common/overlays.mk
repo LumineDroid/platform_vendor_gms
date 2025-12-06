@@ -1,5 +1,9 @@
 PRODUCT_PACKAGES += \
     ContactsProviderOverlay_GMS \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay_GMS \
     GoogleWebViewOverlay_GMS \
     PixelConfigOverlay2018_GMS \
