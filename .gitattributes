@@ -1,0 +1,10 @@
+common/proprietary/product/priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/app/PrebuiltGmail/PrebuiltGmail.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/app/Photos/Photos.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08/DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/app/Maps/Maps.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10.apk filter=lfs diff=lfs merge=lfs -text
