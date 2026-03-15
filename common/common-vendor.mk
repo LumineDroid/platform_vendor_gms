@@ -178,6 +178,13 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     SetupWizardPixelPrebuilt_v802960446 \
     StorageManagerGoogle \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather \
     TurboAdapter
 
 ifneq ($(WITH_GMS_COMMS_SUITE),false)
