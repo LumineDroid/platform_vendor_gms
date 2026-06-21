@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.overlay.deprecated.telecom_gms">
+    <overlay android:targetPackage="com.google.android.telecomresources"
+                   android:targetName="TelecomLibCustomization"
+                   android:isStatic="true"
+                   android:priority="0"/>
+</manifest>

@@ -1,5 +1,6 @@
 PRODUCT_PACKAGES += \
     ContactsProviderOverlay_GMS \
+    framework-resOverlay_GMS \
     GlanceableHubConfigOverlay \
     GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
@@ -17,6 +18,6 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlay_GMS \
     SystemUIGXOverlay_GMS \
     SystemUIOverlay_GMS \
+    TelecomOverlayDeprecatedGoogle \
+    TelecomOverlayZumaproGoogle \
     TeleServiceOverlay_GMS \
-    TelecomOverlay_GMS \
-    framework-resOverlay_GMS \

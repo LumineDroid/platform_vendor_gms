@@ -1,4 +1,4 @@
-# All unpinned files are extracted from caiman BP4A.260205.002
+# All unpinned files are extracted from caiman CP2A.260605.012
 
 # Dialer
 product/etc/permissions/com.google.android.dialer.support.xml

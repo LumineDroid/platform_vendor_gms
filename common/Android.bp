@@ -16,7 +16,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libpowerstatshaldataprovider.so"],
-			shared_libs: ["android.hardware.power.stats@1.0", "libhidlbase", "liblog", "libnativehelper", "libprotobuf-cpp-lite", "libutils", "libbinder_ndk", "android.hardware.power.stats-V1-ndk", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.power.stats@1.0", "libhidlbase", "liblog", "libnativehelper", "libprotobuf-cpp-lite-6.33.5", "libutils", "libbinder_ndk", "android.hardware.power.stats-V1-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -129,9 +129,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePolicyPrebuilt-v10334460",
+	name: "DevicePolicyPrebuilt-v10572820",
 	owner: "gms",
-	apk: "proprietary/product/app/DevicePolicyPrebuilt-v10334460/DevicePolicyPrebuilt-v10334460.apk",
+	apk: "proprietary/product/app/DevicePolicyPrebuilt-v10572820/DevicePolicyPrebuilt-v10572820.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -271,9 +271,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoundAmplifierPrebuilt_v4.8.758106410",
+	name: "SoundAmplifierPrebuilt_v4.91.886631805",
 	owner: "gms",
-	apk: "proprietary/product/app/SoundAmplifierPrebuilt_v4.8.758106410/SoundAmplifierPrebuilt_v4.8.758106410.apk",
+	apk: "proprietary/product/app/SoundAmplifierPrebuilt_v4.91.886631805/SoundAmplifierPrebuilt_v4.91.886631805.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -283,9 +283,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SwitchAccessPrebuilt_1.16.0.726766860",
+	name: "SwitchAccessPrebuilt_1.17.0.877181440",
 	owner: "gms",
-	apk: "proprietary/product/app/SwitchAccessPrebuilt_1.16.0.726766860/SwitchAccessPrebuilt_1.16.0.726766860.apk",
+	apk: "proprietary/product/app/SwitchAccessPrebuilt_1.17.0.877181440/SwitchAccessPrebuilt_1.17.0.877181440.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
@@ -361,9 +361,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02",
+	name: "DeviceIntelligenceNetworkPrebuiltAstrea",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk",
+	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
@@ -375,9 +375,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10",
+	name: "DevicePersonalizationAiAiPrebuiltPixel2024",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10.apk",
+	apk: "proprietary/product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2024/DevicePersonalizationAiAiPrebuiltPixel2024.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
@@ -403,23 +403,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GoogleOneTimeInitializer",
+	name: "GoogleRestorePrebuilt-v1007163",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk",
-	overrides: ["OneTimeInitializer"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "GoogleRestorePrebuilt-v842048",
-	owner: "gms",
-	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v842048/GoogleRestorePrebuilt-v842048.apk",
+	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v1007163/GoogleRestorePrebuilt-v1007163.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
@@ -458,9 +444,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltDeskClockGoogle_76007351",
+	name: "PrebuiltDeskClockGoogle_76042511",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltDeskClockGoogle_76007351/PrebuiltDeskClockGoogle_76007351.apk",
+	apk: "proprietary/product/priv-app/PrebuiltDeskClockGoogle_76042511/PrebuiltDeskClockGoogle_76042511.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["DeskClock"],
 	preprocessed: true,
@@ -630,20 +616,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltGmsCoreVic",
-	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "SafetyHubPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk",
@@ -659,9 +631,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ScribePrebuilt_v8.4.773573318",
+	name: "ScribePrebuilt_v8.7.880674799",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/ScribePrebuilt_v8.4.773573318/ScribePrebuilt_v8.4.773573318.apk",
+	apk: "proprietary/product/priv-app/ScribePrebuilt_v8.7.880674799/ScribePrebuilt_v8.7.880674799.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -700,9 +672,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPrebuilt_v811313066",
+	name: "SetupWizardPrebuilt_versioned",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/SetupWizardPrebuilt_v811313066/SetupWizardPrebuilt_v811313066.apk",
+	apk: "proprietary/product/priv-app/SetupWizardPrebuilt_versioned/SetupWizardPrebuilt_versioned.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["Provision"],
 	preprocessed: true,
@@ -794,9 +766,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPixelPrebuilt_v802960446",
+	name: "SetupWizardPixelPrebuilt_versioned",
 	owner: "gms",
-	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_v802960446/SetupWizardPixelPrebuilt_v802960446.apk",
+	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_versioned/SetupWizardPixelPrebuilt_versioned.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["LineageSetupWizard"],
 	preprocessed: true,
@@ -956,9 +928,9 @@ dex_import {
 }
 
 android_app_import {
-	name: "AICorePrebuilt-aicore_20250130.00_RC01",
+	name: "AICorePrebuilt-aicore_20260302.01_RC00",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/AICorePrebuilt-aicore_20250130.00_RC01/AICorePrebuilt-aicore_20250130.00_RC01.apk",
+	apk: "proprietary/product/priv-app/AICorePrebuilt-aicore_20260302.01_RC00/AICorePrebuilt-aicore_20260302.01_RC00.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

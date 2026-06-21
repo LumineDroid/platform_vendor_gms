@@ -27,6 +27,7 @@
     <string name="config_defaultTranslationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService</string>
     <string name="config_defaultWallpaperEffectsGenerationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.wallpapereffects.AiAiWallpaperEffectsGenerationService</string>
     <string name="config_defaultWellbeingPackage">@string/config_systemWellbeing</string>
+    <string name="config_dynamicInstrumentationEventConsumer">com.google.android.odad/com.google.android.apps.miphone.odad.hb.HummingbirdEventService</string>
     <string name="config_emergency_dialer_package">com.google.android.apps.safetyhub</string>
     <string name="config_incidentReportApproverPackage">com.google.android.permissioncontroller</string>
     <string name="config_powerSaveModeChangedListenerPackage">com.google.android.flipendo</string>

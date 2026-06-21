@@ -29,9 +29,4 @@
         <item>.onPrimaryContainer:@sud_system_on_primary_container_dark</item>
         <item>.surfaceContainer:@sud_system_surface_container_dark</item>
     </string-array>
-    <string-array name="welcome_animation_customization">
-        <item>.primaryContainer:@sud_system_primary_container_dark</item>
-        <item>.onSecondary:@sud_system_secondary_container_dark</item>
-        <item>.surfaceContainer:@sud_system_surface_container_dark</item>
-    </string-array>
 </resources>

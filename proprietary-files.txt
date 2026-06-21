@@ -1,4 +1,4 @@
-# All unpinned files are extracted from caiman BP4A.260205.002
+# All unpinned files are extracted from caiman CP2A.260605.012
 
 # AndroidAuto
 product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
@@ -10,7 +10,7 @@ product/app/TrichromeLibrary-Stub/TrichromeLibrary-Stub.apk;PRESIGNED
 product/app/TrichromeLibrary/TrichromeLibrary.apk.gz
 product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNED
 product/app/WebViewGoogle/WebViewGoogle.apk.gz
-product/priv-app/ScribePrebuilt_v8.4.773573318/ScribePrebuilt_v8.4.773573318.apk;PRESIGNED
+product/priv-app/ScribePrebuilt_v8.7.880674799/ScribePrebuilt_v8.7.880674799.apk;PRESIGNED
 
 # Calculator
 product/app/CalculatorGooglePrebuilt_85006267/CalculatorGooglePrebuilt_85006267.apk;OVERRIDES=ExactCalculator;PRESIGNED
@@ -19,14 +19,14 @@ product/app/CalculatorGooglePrebuilt_85006267/CalculatorGooglePrebuilt_85006267.
 product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar2,Calendar,Etar;PRESIGNED
 
 # Clock
-product/priv-app/PrebuiltDeskClockGoogle_76007351/PrebuiltDeskClockGoogle_76007351.apk;OVERRIDES=DeskClock;PRESIGNED
+product/priv-app/PrebuiltDeskClockGoogle_76042511/PrebuiltDeskClockGoogle_76042511.apk;OVERRIDES=DeskClock;PRESIGNED
 
 # Device Personalization Services
-product/priv-app/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10.apk;PRESIGNED
+product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2024/DevicePersonalizationAiAiPrebuiltPixel2024.apk;PRESIGNED
 
 # ExtServices
 system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|cff72cd3f779c862506e48150c3f51f63aed98e3
-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|16a852bbe6d288a70c9c652dd4b13079da74087b
+system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|078886fedef214dc41d538c6f4a4b948e5d6d5cc
 
 # Files
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
@@ -37,6 +37,7 @@ system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk;OVERRIDES=Stor
 system_ext/app/Flipendo/Flipendo.apk
 
 # Google search
+product/etc/permissions/velvet_app-privapp-permissions.xml
 product/priv-app/Velvet/Velvet.apk;OVERRIDES=QuickSearchBox;PRESIGNED
 
 # Gmail
@@ -57,12 +58,11 @@ product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices/AndroidPl
 product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;PRESIGNED
 system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
 
 # Intelligence
-product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk;PRESIGNED
+product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED
 
 # Keyboard
@@ -173,8 +173,9 @@ product/overlay/PixelSetupWizardOverlayExpressive.apk:product/overlay/PixelSetup
 product/overlay/SettingsGoogle__caiman__auto_generated_rro_product.apk:product/overlay/SettingsOverlay_GMS.apk
 product/overlay/SettingsProvider__caiman__auto_generated_rro_product.apk:product/overlay/SettingsProviderOverlay_GMS.apk
 product/overlay/SystemUIGoogle__caiman__auto_generated_rro_product.apk:product/overlay/SystemUIOverlay_GMS.apk
+product/overlay/TelecomOverlayDeprecatedGoogle.apk
+product/overlay/TelecomOverlayZumaproGoogle.apk
 product/overlay/TeleService__caiman__auto_generated_rro_product.apk:product/overlay/TeleServiceOverlay_GMS.apk
-product/overlay/Telecom__caiman__auto_generated_rro_product.apk:product/overlay/TelecomOverlay_GMS.apk
 product/overlay/framework-res__caiman__auto_generated_rro_product.apk:product/overlay/framework-resOverlay_GMS.apk
 
 # NgaResources
@@ -205,24 +206,23 @@ product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk;OVERRIDES=EmergencyInfo
 system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
 
 # Security
-product/app/DevicePolicyPrebuilt-v10334460/DevicePolicyPrebuilt-v10334460.apk;PRESIGNED
+product/app/DevicePolicyPrebuilt-v10572820/DevicePolicyPrebuilt-v10572820.apk;PRESIGNED
 product/etc/security/fsverity/gms_fsverity_cert.der
 product/etc/security/fsverity/play_store_fsi_cert.der
 
 # Setup
 product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml
-product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
-product/priv-app/GoogleRestorePrebuilt-v842048/GoogleRestorePrebuilt-v842048.apk;PRESIGNED
+product/priv-app/GoogleRestorePrebuilt-v1007163/GoogleRestorePrebuilt-v1007163.apk;PRESIGNED
 product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
 product/priv-app/SearchSelectorPrebuilt/SearchSelectorPrebuilt.apk;PRESIGNED
-product/priv-app/SetupWizardPrebuilt_v811313066/SetupWizardPrebuilt_v811313066.apk;OVERRIDES=Provision;PRESIGNED
-system_ext/priv-app/SetupWizardPixelPrebuilt_v802960446/SetupWizardPixelPrebuilt_v802960446.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
+product/priv-app/SetupWizardPrebuilt_versioned/SetupWizardPrebuilt_versioned.apk;OVERRIDES=Provision;PRESIGNED
+system_ext/priv-app/SetupWizardPixelPrebuilt_versioned/SetupWizardPixelPrebuilt_versioned.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 
 # Sound
-product/app/SoundAmplifierPrebuilt_v4.8.758106410/SoundAmplifierPrebuilt_v4.8.758106410.apk;PRESIGNED
+product/app/SoundAmplifierPrebuilt_v4.91.886631805/SoundAmplifierPrebuilt_v4.91.886631805.apk;PRESIGNED
 
 # Switch Access
-product/app/SwitchAccessPrebuilt_1.16.0.726766860/SwitchAccessPrebuilt_1.16.0.726766860.apk;PRESIGNED
+product/app/SwitchAccessPrebuilt_1.17.0.877181440/SwitchAccessPrebuilt_1.17.0.877181440.apk;PRESIGNED
 
 # Sysconfig
 product/etc/preferred-apps/google.xml

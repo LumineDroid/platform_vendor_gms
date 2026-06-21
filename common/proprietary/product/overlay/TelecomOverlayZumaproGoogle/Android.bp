@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "TelecomOverlayZumaproGoogle",
+    product_specific: true,
+}

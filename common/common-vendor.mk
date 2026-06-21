@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/gms/common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
+    vendor/gms/common/proprietary/product/etc/permissions/velvet_app-privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/velvet_app-privapp-permissions.xml \
     vendor/gms/common/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
     vendor/gms/common/proprietary/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der \
@@ -126,7 +127,7 @@ PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt_85006267 \
     CalendarGooglePrebuilt \
     Chrome-Stub \
-    DevicePolicyPrebuilt-v10334460 \
+    DevicePolicyPrebuilt-v10572820 \
     GoogleContacts \
     GoogleTTS \
     LatinIMEGooglePrebuilt \
@@ -137,21 +138,20 @@ PRODUCT_PACKAGES += \
     NgaResources \
     Photos \
     PrebuiltGmail \
-    SoundAmplifierPrebuilt_v4.8.758106410 \
-    SwitchAccessPrebuilt_1.16.0.726766860 \
+    SoundAmplifierPrebuilt_v4.91.886631805 \
+    SwitchAccessPrebuilt_1.17.0.877181440 \
     TrichromeLibrary-Stub \
     WebViewGoogle-Stub \
     talkback \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
-    DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10 \
+    DeviceIntelligenceNetworkPrebuiltAstrea \
+    DevicePersonalizationAiAiPrebuiltPixel2024 \
     FilesPrebuilt \
-    GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v842048 \
+    GoogleRestorePrebuilt-v1007163 \
     PartnerSetupPrebuilt \
     Phonesky \
-    PrebuiltDeskClockGoogle_76007351 \
+    PrebuiltDeskClockGoogle_76042511 \
     PrebuiltGmsCoreVic_AdsDynamite \
     PrebuiltGmsCoreVic_CronetDynamite \
     PrebuiltGmsCoreVic_DynamiteLoader \
@@ -164,19 +164,18 @@ PRODUCT_PACKAGES += \
     MlkitBarcodeUIPrebuilt \
     TfliteDynamitePrebuilt \
     VisionBarcodePrebuilt \
-    PrebuiltGmsCoreVic \
     SafetyHubPrebuilt \
-    ScribePrebuilt_v8.4.773573318 \
+    ScribePrebuilt_v8.7.880674799 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_v811313066 \
+    SetupWizardPrebuilt_versioned \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     GoogleServicesFramework \
-    SetupWizardPixelPrebuilt_v802960446 \
+    SetupWizardPixelPrebuilt_versioned \
     StorageManagerGoogle \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
@@ -200,7 +199,7 @@ endif
 ifeq ($(WITH_GMS_AICORE),true)
 
 PRODUCT_PACKAGES += \
-    AICorePrebuilt-aicore_20250130.00_RC01
+    AICorePrebuilt-aicore_20260302.01_RC00
 endif
 PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
@@ -245,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/ringtones/The_big_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_big_adventure.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Your_new_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_new_adventure.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Zen_too.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Zen_too.ogg \
-    vendor/gms/common/proprietary/product/media/audio/ui/AttentionalHaptics.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/AttentionalHaptics.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/ChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/ChargingStarted.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/Dock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Dock.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/Effect_Tick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Effect_Tick.ogg \

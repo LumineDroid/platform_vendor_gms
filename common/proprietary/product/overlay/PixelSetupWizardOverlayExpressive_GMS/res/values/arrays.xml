@@ -107,9 +107,4 @@
         <item>.onSecondaryContainer:@sud_system_on_secondary_container_light</item>
         <item>.outline:@sud_system_outline_light</item>
     </string-array>
-    <string-array name="welcome_animation_customization">
-        <item>.primaryContainer:@sud_system_primary_container_light</item>
-        <item>.onSecondary:@sud_system_secondary_container_light</item>
-        <item>.surfaceContainer:@sud_system_surface_container_light</item>
-    </string-array>
 </resources>

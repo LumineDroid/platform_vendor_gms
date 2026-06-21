@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="config_defaultQrCodeComponent">(M)‏‮com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy‬‏</string>
+    <string name="config_defaultQrCodeComponentIntentAction">(M)‏‮com.google.android.gms.mlkit_barcode_ui.SCAN_QR_CODE‬‏</string>
     <string name="config_defaultSelectToSpeakService">(M)‏‮com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService‬‏</string>
     <string name="config_defaultVoiceAccessService">(M)‏‮com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService‬‏</string>
     <string name="config_defaultWallet">(M)‏‮com.google.android.gms‬‏</string>
